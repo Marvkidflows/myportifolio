@@ -1,0 +1,21 @@
+.skill-card {
+  position: relative;
+  background: rgba(15, 23, 42, 0.6); /* like bg-slate-800/40 */
+  z-index: 0;
+}
+
+.skill-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 0.75rem; /* same as rounded-xl */
+  padding: 1px; /* thickness of border */
+  background: linear-gradient(90deg, #06b6d4, #06b6d4); /* cyan border */
+  -webkit-mask: 
+    linear-gradient(#000 0 0) content-box, 
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+  z-index: -1;
+}
