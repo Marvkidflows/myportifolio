@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import "./Portfolio.css"
+import "./portfolio.css"
 import IMG1 from "../../assets/voyagepic.jpg"
 import IMG2 from "../../assets/ecommerce.PNG"
 import IMG3 from "../../assets/food website.PNG"
