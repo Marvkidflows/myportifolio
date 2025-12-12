@@ -15,15 +15,15 @@ const data = [
     id:1,
     Image: IMG1,
     title:"Voyager Travel Website",
-    github:"https://github.com",
-    demo:"#"
+    github:"https://github.com/Marvkidflows/Voyagertourwebsite.git",
+    demo:"https://travelsandtourvoyage.com/"
   },
     {
     id:2,
     Image: IMG2,
     title:"Ecommerce-Website",
-    github:"https://github.com",
-    demo:"#"
+    github:"https://github.com/Marvkidflows/Ecommercereact.git",
+    demo:"https://marvkidflows.github.io/Ecommercereact/"
   },
     {
     id:3,
