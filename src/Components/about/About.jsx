@@ -18,12 +18,12 @@ useEffect(() => {
   return (
     <section data-aos="fade-up"  id='about'>
       <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h2>About CODEXA TECH</h2>
 
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="About Me" />
+            <img src={ME} alt="About CODEXA TECH" />
           </div>
         </div>
         <div data-aos="flip-up" className='about__content'>
@@ -48,9 +48,9 @@ useEffect(() => {
             </article>
           </div>
           <p>
-           I'm a creative and detail-oriented Web Developer with a passion for crafting responsive, user-friendly websites. I specialize in blending modern design with clean, efficient code to deliver seamless digital experiences.
+           CODEXA TECH is a full-stack development practice dedicated to crafting sophisticated, scalable web solutions. With expertise spanning React and Node.js on the backend and Tailwind CSS for modern frontend design, I deliver applications that seamlessly merge aesthetic excellence with robust technical architecture. My proficiency across the complete development stack—from database design with Laravel to responsive UI implementation—enables me to build comprehensive digital solutions from conception through deployment.
 
-Whether it's building from scratch or optimizing existing platforms, I thrive on turning ideas into elegant, functional interfaces that leave a lasting impression.
+I specialize in transforming complex business requirements into intuitive, high-performance applications. Whether architecting enterprise-grade systems or optimizing existing platforms for enhanced performance, I am committed to delivering solutions that exceed expectations and create lasting digital impact.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

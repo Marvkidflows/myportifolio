@@ -6,7 +6,7 @@ import "./footer.css"
 const Footer = () => {
   return (
    <footer>
-    <a href="#" className='footer__logo'> Marvkid</a>
+    <a href="#" className='footer__logo'> Codexatech</a>
     <ul className='permalinks'>
       <li><a href="#">Home</a></li>
      <li><a href="#about">About</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
       <a href="https://twitter.com"><IoLogoTwitter/></a>
     </div>
     <div className='footer__copyright'>
-    <small>&copy; Marvkidflows. All rights reserved.</small>
+    <small>&copy; Codexatech. All rights reserved.</small>
     </div>
    </footer>
   )

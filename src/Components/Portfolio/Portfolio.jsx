@@ -4,7 +4,7 @@ import IMG1 from "../../assets/voyagepic.jpg"
 import IMG2 from "../../assets/ecommerce.PNG"
 import IMG3 from "../../assets/food website.PNG"
 import IMG4 from "../../assets/portifolio2.PNG"
-import IMG5 from "../../assets/portfolio5.png"
+import IMG5 from "../../assets/dashboard.png"
 import IMG6 from "../../assets/portfolio6.jpg"
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -17,41 +17,40 @@ const data = [
     title:"Voyager Travel Website",
     github:"https://github.com/Marvkidflows/Voyagertourwebsite.git",
     demo:"https://travelsandtourvoyage.com/"
-  },
-    {
-    id:2,
-    Image: IMG2,
-    title:"Ecommerce-Website",
-    github:"https://github.com/Marvkidflows/Ecommercereact.git",
-    demo:"https://marvkidflows.github.io/Ecommercereact/"
-  },
+  },{
+  id:2,
+  Image: IMG2,
+  title:"Ecommerce-Website",
+  github:"https://github.com/Marvkidflows/Ecommercereact.git",
+  demo:"https://ecommercereact-qza7.vercel.app"
+},
     {
     id:3,
     Image: IMG3,
-    title:"Food website",
+    title:"NutriCare – Dietitian & Wellness Landing Page",
     github:"https://github.com",
-    demo:"#"
+    demo:"https://nutricare-dietitian-wellness.vercel.app/"
   },
     {
     id:4,
     Image: IMG4,
     title:"My Personal portifolio",
-    github:"https://github.com",
-    demo:"https://dribble.com/Alien_pixels"
+    github:"https://github.com/Marvkidflows/personalPortifolio.git",
+    demo:"https://personal-portifolio-jet.vercel.app/"
   },
     {
     id:5,
     Image: IMG5,
-    title:"Crypto Currency Dashboard & Financial Visualization",
-    github:"https://github.com",
-    demo:"https://dribble.com/Alien_pixels"
+    title:"AI Health Dashboard",
+    github:"https://github.com/Marvkidflows/Health-dashboard.git",
+    demo:"https://health-dashboard-nine-fawn.vercel.app/"
   },
     {
     id:6,
     Image: IMG6,
     title:"Crypto Currency Dashboard & Financial Visualization",
-    github:"https://github.com",
-    demo:"https://dribble.com/Alien_pixels"
+    github:"https://github.com/Marvkidflows/Crypto-dashboard.git",
+    demo:"https://crypto-dashboard.vercel.app/"
   }
 
 
@@ -68,7 +67,7 @@ const Portfolio = () => {
    }, []);
   return (
    <section data-aos="fade-up"   id='portifolio'>
-    <h5>My Recent Work</h5>
+    <h5> Recent Work</h5>
     <h2>Portifolio</h2>
 
     <div className='container portfolio__container'>

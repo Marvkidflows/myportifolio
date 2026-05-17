@@ -20,31 +20,23 @@ import 'swiper/css/pagination';
 const data =[
   {
     avatar:AVTR1,
-    name: "",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-     Molestiae eligendi ipsa, repudiandae cum necessitatibus accusamus tempora 
-      totam eius saepe. Reiciendis nam distinctio sed laudantium  necessitatibus? Dolorem modi eos minima corrupti.`
+    name: "Linda Richard",
+   review: `I had a really great experience working with this service. The attention to detail and level of care were impressive. Everything felt smooth, and I always felt supported throughout the process. I highly recommend it to anyone looking for quality and reliability.`
   },
     {
     avatar:AVTR2,
     name: "Shatta wale",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-     Molestiae eligendi ipsa, repudiandae cum necessitatibus accusamus tempora 
-      totam eius saepe. Reiciendis nam distinctio sed laudantium  necessitatibus? Dolorem modi eos minima corrupti.`
+   review: `This was one of the best experiences I’ve had. Everything was well organized, and the communication was clear from start to finish. I felt confident in every step, and the results exceeded my expectations.`
   },
     {
     avatar:AVTR3,
-    name: "kwame Despite",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-     Molestiae eligendi ipsa, repudiandae cum necessitatibus accusamus tempora 
-      totam eius saepe. Reiciendis nam distinctio sed laudantium  necessitatibus? Dolorem modi eos minima corrupti.`
+    name: "James Carter",
+   review: `This was one of the best experiences I’ve had. Everything was well organized, and the communication was clear from start to finish. I felt confident in every step, and the results exceeded my expectations.`
   },
    {
     avatar:AVTR4,
-    name: "John Doe",
-    review: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-     Molestiae eligendi ipsa, repudiandae cum necessitatibus accusamus tempora 
-      totam eius saepe. Reiciendis nam distinctio sed laudantium  necessitatibus? Dolorem modi eos minima corrupti.`
+    name: "Sarah Johnson",
+review: `I really appreciated the level of professionalism and care throughout the entire process. Everything was clearly explained, and I always felt informed and supported. The experience was smooth, effective, and genuinely helpful. I would gladly recommend this service to others.`
   },
 ]
 const Testimonial = () => {
